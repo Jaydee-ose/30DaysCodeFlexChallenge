@@ -1,0 +1,50 @@
+header{
+display: grid;
+place-items: center;
+background-color: orangered;
+
+}
+  
+h1{
+  color: white ;
+  margin-top: 0;
+  margin-bottom: 1px ;
+}
+
+nav ul li{
+  display: inline-block;
+  place-items: center;
+}
+  
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  padding-inline: 10px;
+}
+
+h2, h3{
+  color: orangered;
+  margin-bottom: 1.3rem;
+  margin-top: 1rem;
+}
+
+p, ul, ol{
+  margin-top: 10px;
+}
+
+article ol li{
+  margin-bottom: .6rem;
+}
+
+article ul li a{
+  /* text-decoration: none ; */
+  color: black;
+}
+
+footer{
+  margin-top: 10px;
+}
+
+footer p b{
+  color: orangered;
+}
