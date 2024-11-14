@@ -1,0 +1,52 @@
+header{
+display: grid;
+place-items: center;
+background-color: orangered;
+}
+ 
+#brand{
+  color: white ;
+  margin-top: 0;
+  margin-bottom: 1px ;
+}
+
+#nav-bar ul li{
+  display: inline-block;
+  place-items: center;
+}
+  
+#nav-bar ul li a{
+  text-decoration: none;
+  color: white;
+  padding-inline: 10px;
+}
+
+.nav-pages h2, .other-links h3{
+  color: orangered;
+  margin-bottom: 1.3rem;
+  margin-top: 1rem;
+  background-color: antiquewhite;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-pages, ul, ol{
+  margin-top: 10px;
+}
+
+.about-codeflex ol li{
+  margin-bottom: .6rem;
+}
+
+.about-codeflex ul li a{
+  /* text-decoration: none ; */
+  color: black;
+}
+
+#contact{
+  margin-top: 10px;
+}
+
+#contact p b{
+  color: orangered;
+}
