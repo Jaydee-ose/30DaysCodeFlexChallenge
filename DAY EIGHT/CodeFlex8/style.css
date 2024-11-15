@@ -1,0 +1,19 @@
+.paradiv{
+    padding: 30px;
+    margin: 50px;
+    border: 8px solid red;
+    width: 250px;
+}
+
+.para{
+    padding: 20px;
+    border: 4px dotted blue;
+    margin: 50px;
+}
+
+.stylepic{
+    width: 200px;
+    padding: .5rem;
+    border: 5px solid yellow;
+    margin: 50px;
+}
