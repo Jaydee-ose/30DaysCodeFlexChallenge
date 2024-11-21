@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding:6px;
+
+}
+
+header h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 7px;
+}
+
+nav ul{
+    background-color: black;
+
+    display: flex;
+    border: 1px solid white;
+    border-radius: 14px;
+    padding: 7px 10px;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul li a:hover{
+    background-color: grey;
+    border-radius: 10px;
+}
+
+button{
+    display: none;
+}
+
+main{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1{
+    font-size: 300%;
+    width: 45%;
+    margin-bottom: 3rem;
+}
+.more{
+    display: flex;
+    gap: 5px;
+    
+}
+
+.more p{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 14px;
+
+}
+
+footer{
+    color: black;
+}
+
+@media (max-width: 768px){
+    main{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+
+    }
+}
+
+@media (max-width: 425px){
+    
+    body{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+    }
+
+    nav ul{
+        display: none;
+    }
+
+        
+    button{
+        display: contents;
+        font-size: 30px;
+    }
+
+    main{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+
+
+    }
+    main h1{
+        font-size: 250%;
+    /* height: 100vh; */
+    margin-bottom: 1rem;
+
+    }
+
+    .more p{
+        padding: 3px;
+        font-size: .6rem;
+    }
+}
