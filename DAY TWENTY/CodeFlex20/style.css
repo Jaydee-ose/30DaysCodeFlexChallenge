@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#student-profile{
+    width: 37em;
+    background-color: rgb(68, 131, 104);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    box-shadow: 0 0 30px green;
+}
+
+#student-profile:hover{
+    padding: 4rem;
+    border-top-right-radius: 2.5rem;
+    border-bottom-left-radius: 2.5rem;
+    clip-path: polygon(10% 0%, 100% 0%, 90% 100%, 0% 100%);
+    border: 2px solid red;
+}
+
+#heading{
+    margin-bottom: .7rem;
+}
+
+span{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 2rem;
+
+}
+
+strong{
+    width: 40%;
+}
