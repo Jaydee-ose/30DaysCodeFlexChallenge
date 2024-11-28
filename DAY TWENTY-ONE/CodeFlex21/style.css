@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simple-calc{
+    background-color: black;
+    width: 23rem;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#output{
+    background-color: grey;
+    width: 20rem;
+    height: 20%;
+    border: 2px solid gray;
+    color: white;
+    font-weight: 600;
+    font-size: 2.4rem;
+    text-align: right;
+    padding: 1.2rem;
+
+}
+
+#all-buttons-div {
+    background-color: black;
+    width: 20rem;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+button:active{
+    background-color:  rgb(54, 52, 52);
+}
+
+
+#clearAll-btn, #mt-space, #mt-space2 #delete-btn{
+    border: 0;
+    margin-top: 2px;
+}
+
+#clearAll-btn{
+    background-color: rgb(206, 56, 56);
+    border: 2px solid  rgb(206, 56, 56);
+}
+
+#clearAll-btn:active{
+    background-color: red;
+    border: 2px solid red;
+}
+
+#delete-btn{
+    /* background-color: black; */
+    color: rgb(30, 197, 30);
+    border: 2px solid green;
+    background-color: rgb(77, 69, 69);    
+}
+
+#delete-btn:active{
+    background-color: rgb(182, 126, 126);
+    border: 2px solid red;
+}
+
+#add-btn, #substract-btn, #multiply-btn, #divide-btn, #equals-btn{
+    background-color:  rgb(54, 52, 52);
+}
+
+#add-btn:active, #substract-btn:active, #multiply-btn:active, #divide-btn:active, #equals-btn:active{
+    background-color:  rgb(92, 80, 80);
+}
