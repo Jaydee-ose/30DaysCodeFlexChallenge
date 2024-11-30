@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+
+    color: white;
+}
+
+.all{
+    background-color: blue;
+
+    padding: 0 7.3rem;
+    height: 38rem;
+    clip-path:polygon(0 0, 100% 0, 100% 83%, 0 100% );
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.nav-bar{
+    display: flex;
+}
+
+ nav ul li{
+    display: inline-block;
+    
+    padding-left: 1.5rem;
+    
+ }
+
+ .nav-bar nav ul li a{
+    text-decoration: none;
+    color: white;
+
+ }
+
+.nav-bar button{
+    margin-left: 2.7rem;
+    padding: 3px 9px 3px 9px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+}
+
+.main-content{
+    margin-top: 8rem;
+    /* background-color: navajowhite; */
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 48%;
+    margin-top: 3rem;
+}
+
+.sub-head{
+    margin-bottom: 1rem;
+    font-size: 2.6rem;
+}
+
+.text p{
+    margin-bottom: 1rem;
+}
+
+.text button{
+    color: white;
+    background-color: rgb(19, 150, 19);
+    border: none;
+    border-radius: 8px;
+    padding: 5px 1.2rem 5px 1.2rem;
+}
+
+.register{
+    background-color: #fff;
+    /* width: 10px; */
+    color: grey;
+    padding: 2rem;
+    box-shadow: 0 0 30px grey;
+}
+
+.register form{
+    display: flex;
+    flex-direction: column;
+}
+
+.register h3{
+    display: grid;
+    place-items: center;
+    margin-bottom: .7rem;
+}
+
+.register form input{
+    padding: 6px 20px 6px 3px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 2px;
+}
+
+.register button{
+    background-color: rgb(58, 134, 235);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 3px 0 3px 0;
+}
+
+footer{
+    color: black;
+    background-color: #fff7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    font-size: 1rem;
+ }
+
+ #moon{
+    border: none;    
+    font-size: 20px;
+ }
+ 
+ #moon:hover{
+    cursor: pointer;
+ }
+
+
